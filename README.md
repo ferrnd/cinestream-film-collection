@@ -4,7 +4,7 @@ This repository contains the **Backend API** for CineStream, a movie and series 
 
 The frontend application (which consumes this API) is managed in a separate repository.
 
-## 🌟 Features
+## Features
 
 * **RESTful Endpoints:** Full CRUD functionality exposed via clear and semantic HTTP routes.
 * **Data Persistence:** Uses **Prisma** as the modern ORM to interact with the database.
@@ -12,7 +12,7 @@ The frontend application (which consumes this API) is managed in a separate repo
 * **Seed Data:** Includes a comprehensive `seed.js` script to populate the database with initial movies, series, and genres.
 * **Modular Structure:** Organized using a dedicated `src/controllers`, `src/models`, and `src/routes` pattern for clean, maintainable code.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Technology | Role |
 | :--- | :--- |
