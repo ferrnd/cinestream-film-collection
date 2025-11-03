@@ -6,3 +6,27 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Genero {
+  id        Int      @id @default(autoincrement())
+  nome      String   @unique
+  filmes    Filme[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("Gêneros")
+}
+
+model stream {
+  id             Int      @id @default(autoincrement())
+  nome           String
+  descricao      String
+  classificacao  String
+  anoLancamento  Int
+  generoId       Int
+  genero         Genero   @relation(fields: [generoId], references: [id])
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("Stream")
+}
