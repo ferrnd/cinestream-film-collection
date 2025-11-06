@@ -21,17 +21,6 @@ The frontend application (which consumes this API) is managed in a separate repo
 | **Prisma** | ORM (Object-Relational Mapper) |
 | **JavaScript (ES Modules)** | Core Language |
 
-## ⚙️ Getting Started
-
-Follow these steps to set up and run the CineStream API locally.
-
-### Prerequisites
-
-You need to have the following installed on your system:
-
-* [Node.js](https://nodejs.org/en/download/) (v18 or higher)
-
-### 1. Installation
 
 Clone the repository and install the dependencies:
 
